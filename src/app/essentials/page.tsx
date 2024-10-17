@@ -20,93 +20,93 @@ const Essential = () => {
 
 
             {/* images */}
-            <div className="mx-14 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  grid-cols-4 ">
-                <div className=" grid grid-cols-6 gap-40 max-w-screen-sm">
+            <div className="mx-14 ">
+                <div className="ml-12 md:grid md:grid-cols-6 gap-40 max-w-screen-sm">
                     <div>
-                        <div className="pt-2 w-32 h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
+                        <div className="pt-2 w-44 h-44 md:w-32 md:h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
                             <Image
-                                className="mx-auto h-24 w-28"
+                                className="mx-auto h-32 md:h-28 w-28"
                                 src={image1}
                                 alt="Daily Essentials"
-                                height={200}
-                                width={200}
+                                height={300}
+                                width={300}
                             />
                         </div>
-                        <h6 className='text-[12px] ml-4'>DailyEssentials</h6>
-                        <span className='text-sm ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
+                        <h6 className='text-[12px]  md:ml-4'>DailyEssentials</h6>
+                        <span className='text-sm align-center md:ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
                     </div>
                     <div>
-                        <div className="pt-2 w-32 h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
+                        <div className="pt-2 w-44 h-44 md:w-32 md:h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
                             <Image
-                                className="mx-auto h-24 w-28 "
+                                className="mx-auto h-32 md:h-28 w-28 "
                                 src={image2}
                                 alt="Vegetaibles"
                                 height={200}
                                 width={200}
                             />
-                            </div>
-                            <h6 className='ml-6 text-sm'>Vegetaibles </h6>
-                            <span className='text-sm ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
-
-                        
-                    </div>
-                    <div>
-                    <div className="pt-2 w-32 h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
-                        <Image
-                            className="mx-auto h-24 w-28 "
-                            src={image3}
-                            alt="Fruits"
-                            height={200}
-                            width={200}
-                        />
                         </div>
-                        <h6 className='ml-10 text-sm'>Fruits</h6>
-                        <span className='text-sm ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
-                        
+                        <h6 className='md:ml-6 text-sm'>Vegetaibles </h6>
+                        <span className='text-sm md:ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
+
 
                     </div>
                     <div>
-                        <div className="pt-2 w-32 h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
-                            <Image 
-                                className="mx-auto h-24 pt-4 w-28 "
+                        <div className="pt-2 w-44 h-44 md:w-32 md:h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
+                            <Image
+                                className="mx-auto h-32 md:h-28 w-28 "
+                                src={image3}
+                                alt="Fruits"
+                                height={200}
+                                width={200}
+                            />
+                        </div>
+                        <h6 className='md:ml-10 text-sm'>Fruits</h6>
+                        <span className='text-sm md:ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
+
+
+                    </div>
+                    <div>
+                        <div className="pt-2 w-44 h-44 md:w-32 md:h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
+                            <Image
+                                className="mx-auto h-32 pt-4 md:h-28 w-28 "
                                 src={image4}
                                 alt="Strowberry"
                                 height={200}
                                 width={200}
                             />
                         </div>
-                        <h6 className='ml-6 text-sm'>Strowberry</h6>
-                        <span className='text-sm ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
-                        
+                        <h6 className=' md:ml-6 text-sm'>Strowberry</h6>
+                        <span className='text-sm md:ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
+
                     </div>
                     <div>
-                        <div className="pt-2 w-32 h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
+                        <div className="pt-2 w-44 h-44 md:w-32 md:h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
                             <Image
-                                className="mx-auto h-24 pt-4 w-28"
+                                className="mx-auto h-32 pt-4 md:h-28 w-28"
                                 src={image5}
                                 alt="Mongo"
                                 height={200}
                                 width={200}
                             />
                         </div>
-                        <h6 className='ml-10 text-sm'>Mongo</h6>
-                        <span className='text-sm ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
-                        
+                        <h6 className='md;ml-10 text-sm'>Mongo</h6>
+                        <span className='text-sm md:ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
+
                     </div>
                     <div>
 
 
-                        <div className="pt-2 w-32 h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
+                        <div className="pt-2 w-44 h-44 md:w-32 md:h-32 border-sky-500 mb-2 border bg-gray-50 text-center text-gray-700 dark:text-gray-400 rounded">
                             <Image
-                                className="mx-auto h-24 w-28"
+                                className="mx-auto h-32 md:h-28 w-28"
                                 src={image6}
                                 alt="Cherry"
                                 height={200}
                                 width={200}
                             />
                         </div>
-                        <h6 className='ml-10 text-sm'>Cherry</h6>
-                            <span className='text-sm ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
+                        <h6 className='md:ml-10 text-sm'>Cherry</h6>
+                        <span className='text-sm md:ml-2 font-bold text-gray-900'>UP&nbsp;to&nbsp;50%&nbsp;OFF</span>
                     </div>
 
                 </div >

@@ -41,7 +41,7 @@ const Nav = () => {
             </nav>
             {/* Second Navber */}
             <nav className=" p-4">
-                <div className="container mx-auto flex items-center justify-between">
+                <div className="container mx-auto md:flex items-center justify-between">
                     {/* Left Side - Logo */}
                     <div className="flex-shrink-0 flex flex-wrap ml-6">
                         <HiOutlineBars3BottomLeft className='mx-2 mt-1 rounded-sm text-2xl text-sky-600 border bg-sky-100' />
@@ -49,21 +49,21 @@ const Nav = () => {
                     </div>
 
                     {/* Center - Search Input */}
-                    <div className="flex-1 mx-4 ml-20 relative">
-                        <CiSearch className='absolute ml-2 mt-2 text-2xl text-sky-600 left-0' />
-                        <HiOutlineBars3 className='absolute right-0 mt-2 mr-10 text-2xl text-sky-600' />
+                    <div className="md:flex-1 mx-4 md:ml-20 ml-8 relative">
+                        <CiSearch className=' absolute md:ml-2 md:mt-2 text-2xl text-sky-600 left-0' />
+                        <HiOutlineBars3 className='ml-64  absolute md:right-0 md:mt-2 md:mr-10 md:text-2xl text-sky-600' />
 
                         <input
                             type="text"
                             placeholder="Search essentials, groceries and more..."
-                            className="w-[390px] pl-10  py-2 rounded bg-sky-100 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            className="md:text-xs w-80 md:w-[390px] pl-10  py-2 rounded bg-sky-100 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </div>
                     {/* Right Side - Buttons */}
                     <div className="flex space-x-1 mr-12">
 
-                        <IoPerson className='ml-4 mt-1 text-sky-600' />
-                        <p className=' ml-4'>Sign Up/Sign In</p>
+                        <IoPerson className=' ml-8 md:ml-4 mt-1 text-sky-600' />
+                        <p className=' md:ml-4'>Sign Up/Sign In</p>
 
 
                         <div className=" border-gray-200 h-6 border"></div>

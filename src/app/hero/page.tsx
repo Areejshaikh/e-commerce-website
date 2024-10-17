@@ -15,30 +15,30 @@ const Header = () => {
         src={hero1}
       />
 
-        <div className=" ml-28 absolute lg:flex-grow md:w-1/2 lg:pr-24 
-        md:pr-16 flex flex-col md:items-start md:text-left 
-         md:mb-0 items-center text-center">
-          <p className="mb-2 leading-relaxed text-1xl">
+        <div className=" md:ml-28 absolute lg:flex-grow md:w-1/2 lg:pr-24 
+        md:pr-16 flex flex-col md:text-left 
+         md:mb-0 md:items-center ">
+          <p className="md:mb-2 leading-relaxed text-sm md:text-1xl">
             Best Deal Online On Smart Waches.
           </p>
-          <h1 className="text-white capitalize md:uppercase font-bold title-font sm:text-4xl text-3xl mb-2">
+          <h1 className="mb-1 text-white capitalize md:uppercase font-bold title-font text-sm  sm:text-4xl md:text-3xl md:mb-2">
             smart wearable
           </h1>
-          <p className="text-sm mt-2 text-white mb-8 w-full">
+          <p className="text-xs md:mt-2 text-white mb-8 w-full">
             Up tp 80% OFF
           </p>
         </div>
 
         <div className="absolute lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
         <Image
-            className="w-96 ml-[35rem]"
+            className="w-16  ml-60 md:w-96 md:ml-[35rem]"
             alt="hero"
             src={hero2}
           /> 
         </div>
         <div className="absolute lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
         <Image
-            className="w-56 ml-[40rem]"
+            className=" ml-60 my-4 w-16 md:w-56 md:ml-[40rem]"
             alt="hero"
             src={hero3}
             width={600}
